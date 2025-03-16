@@ -12,7 +12,7 @@ def get_exchange_rates():
     """
     try:
         # Using exchangerate-api.com for currency conversion
-        response = requests.get('https://v6.exchangerate-api.com/v6/API KEY HERE/latest/USD')
+        response = requests.get('https://v6.exchangerate-api.com/v6/EXCHANGERATE API KEY HERE/latest/USD')
         data = response.json()
         
         if data['result'] == 'success':
